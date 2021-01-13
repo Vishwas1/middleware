@@ -3,7 +3,7 @@ import axios from 'axios';
 export class Participants  {
     url: any;
     constructor(){
-        this.url = process.env.BLOCKCHAIN_URL
+        this.url = 'http://65.0.193.129:3000/api'
     }
     async create_aggregator(data:any) {
         const aggregator = [
