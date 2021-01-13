@@ -23,7 +23,7 @@ export default async function app() {
     
     const hypersign = new HypersignAuth({
         server, 
-        baseUrl: 'http://192.168.0.101:4006',
+        baseUrl: 'https://pocmiddleware.herokuapp.com/',
         options
     });
 
